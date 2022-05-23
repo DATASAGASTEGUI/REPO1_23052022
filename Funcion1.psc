@@ -23,6 +23,12 @@ Funcion p <- notas ()
 	Escribir sin saltar "El promedio de las notas restantes es: "
 Fin Funcion
 
+Funcion s<- suma_2_notas ()
+	Escribir Sin Saltar "Ingrese Nota 1? "; Leer n1;
+	Escribir Sin Saltar "Ingrese Nota 2? "; Leer n2;
+	s = n1 + n2
+Fin Funcion
+
 Algoritmo Funcion1
 	Escribir "Menú"
 	Escribir "1. Promedio sin la menor notas"
@@ -32,7 +38,7 @@ Algoritmo Funcion1
 		1:
 		    Escribir notas()
 		2:
-			Escribir "Opcion 2"
+			Escribir suma_2_notas()
 		3:
 			Escribir "Opcion 3"
 		De Otro Modo:
